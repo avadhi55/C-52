@@ -1,0 +1,80 @@
+h1 {
+    color: white;
+    margin-left:30px;
+}
+
+a:link{
+    color: white
+}
+
+a:visited{
+    color: white
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header *{
+}
+
+.menu{
+    margin-right:20px;
+}
+
+.menu a{
+    margin:20px;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+  }
+
+  .item:hover img{
+      opacity:0.3;
+  }
+
+  .item:hover p{
+    opacity:1;
+    
+  }
+
+.item{
+    position:relative;
+}
+/*
+Relative positioning - position according to elements around it
+Absolute Positioning
+*/
